@@ -16,14 +16,31 @@ Additionally, we would like to examine the following secondary questions:
 2. What is the geographical distribution of the selling houses currently on the market?
 3. What are some of the most prominent correlations amongs the factors that contribute to the house's price?
 
+### Data Exploration
+xxx
+
+### Data Analysis
+xxx
+
 ## Communication protocols
 Collaborative work meetings during regularly scheduled class time, as well as unrestricted slack messaging and zoom calls on an as-needed basis.
 
 ## Machine learning model
-what model? supervised regression with decision trees (?)
-what features are evaluated? city, number of bedrooms and bathrooms, and the housing type
-training/testing split: default 75 /25 ?
-accuracy score? confusion matrix results?
+
+### Model Choice
+xxx
+
+### Data Preprocessing
+xxx
+
+### Preliminary Feature Engineering & Selection
+xxx
+
+### Training / Testing Split
+xxx
 
 ## Database
 using SQL as storage database
+
+## Google Slides Presentation
+xxx

@@ -23,7 +23,7 @@ xxx
 xxx
 
 ## Communication protocols
-Collaborative work meetings during regularly scheduled class time, as well as unrestricted slack messaging and zoom calls on an as-needed basis.
+Collaborative work meetings during regularly scheduled class time, as well as through slack messaging and zoom calls on an as-needed basis.
 
 ## Machine learning model
 

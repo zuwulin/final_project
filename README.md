@@ -24,19 +24,24 @@ Collaborative work meetings during regularly scheduled class time, as well as th
 
 ## Technologies, languages, tools, and algorithms used
 For the data collection and cleaning:
-  * Jupyter Notebook / Pandas
+* Jupyter Notebook / Pandas
+
 Creating database:
-  * PgAdmin / PostgreSQL
+* PgAdmin / PostgreSQL
+
 Connecting to database:
-  * Psycogn2 / SQLAlchemy
+* Psycogn2 / SQLAlchemy
+
 Machine Learning:
-  * Jupyter Notebook / Pandas
-  * Imbalanced-learn / Scikit-Learn / Pycaret
-  * Random Forest Regressor
+* Jupyter Notebook / Pandas
+* Imbalanced-learn / Scikit-Learn / Pycaret
+* Random Forest Regressor
+
 Dashboard:
-  * Tableau
+* Tableau
+
 Presentation:
-  * Google Slides
+* Google Slides
   
 ## Results of Analysis
 xxx

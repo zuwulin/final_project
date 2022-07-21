@@ -43,4 +43,4 @@ xxx
 using SQL as storage database
 
 ## Google Slides Presentation
-xxx
+The presentation for the current project can be found [here](https://docs.google.com/presentation/d/1mjovAs0qO8CtyvKc6Q1dIVrJHnOzxK-rPxAUkTT5raQ/edit#slide=id.p).

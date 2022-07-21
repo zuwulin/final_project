@@ -25,9 +25,36 @@ xxx
 ## Communication protocols
 Collaborative work meetings during regularly scheduled class time, as well as through slack messaging and zoom calls on an as-needed basis.
 
+## Technologies, languages, tools, and algorithms used
+For the data collection and cleaning:
+  * Pandas
+Creating database:
+  * PgAdmin / PostgreSQL
+Connecting to database:
+  * Psycogn2 / SQLAlchemy
+Machine Learning:
+  * Pandas
+  * Imbalanced-learn / Scikit-Learn / Pycaret
+Dashboard:
+  * Tableau
+  
+## Results of Analysis
+xxx
+
+## Future Recommendations
+xxx
+
+## Project Outline
+xxx
+
 ## Machine learning model
 
 ### Model Choice
+
+## Initial Model Choice
+xxx
+
+## Final Model Decision
 xxx
 
 ### Data Preprocessing
@@ -39,8 +66,13 @@ xxx
 ### Training / Testing Split
 xxx
 
+### Results and Accuracy Score
+
 ## Database
 using SQL as storage database
+
+## Dashboard
+The interactive analysis dashboard can be found [here]() (currently no working link, WIP).
 
 ## Google Slides Presentation
 The presentation for the current project can be found [here](https://docs.google.com/presentation/d/1mjovAs0qO8CtyvKc6Q1dIVrJHnOzxK-rPxAUkTT5raQ/edit#slide=id.p).

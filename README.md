@@ -39,7 +39,7 @@ As can be evident from the picture above, the best avenue for machine learning m
   <img src="https://user-images.githubusercontent.com/99566803/180272187-7bf9323f-7316-4e2e-b7a6-b202d8446aa3.png" />
 </p>
 
-## Model Benefits and Limitations
+### Model Benefits and Limitations
 xxx
 
 ### Data Preprocessing

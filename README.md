@@ -3,6 +3,10 @@
 ### Selected topic
 Greater Toronto Area (GTA) housing market prices.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/99566803/180220246-70d87867-3b1f-4707-a625-f66a7a221f9f.png" />
+</p>
+
 ### Reasons for selected topic
 We have selected this topic because the Canadian housing market trends have skyrocketed over the past 5 years. In order to understand how the market performs, especially in the GTA area, where the density of the population is extremely big, we would like to discover hidden trends in housing price estimations based on the houses' location, number of bedrooms and bathrooms included, type of dwelling, and previously recorded sale prices.
 
@@ -23,6 +27,13 @@ The original dataset was first visually examined for any major issues, such as m
 Collaborative work meetings during regularly scheduled class time, as well as through slack messaging and zoom calls on an as-needed basis.
 
 ## Technologies, languages, tools, and algorithms used
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/99566803/180226132-23340c4c-a9bf-4db2-9980-ac3c71da66e9.png" />
+</p>
+
+
+
 For the data collection and cleaning:
 * Jupyter Notebook / Pandas
 

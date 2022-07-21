@@ -1,6 +1,6 @@
 # GTA Housing Market Price Prediction
 
-## Selected topic
+### Selected topic
 Greater Toronto Area (GTA) housing market prices.
 
 ### Reasons for selected topic

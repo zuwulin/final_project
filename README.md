@@ -23,13 +23,29 @@ The original dataset was first visually examined for any major issues, such as m
 Collaborative work meetings during regularly scheduled class time, as well as unrestricted slack messaging and zoom calls on an as-needed basis.
 
 ## Machine learning model
-what model? supervised regression with decision trees (?)
-what features are evaluated? city, number of bedrooms and bathrooms, and the housing type
-training/testing split: default 75 /25 ?
-accuracy score? confusion matrix results?
+
+### Model Choice
+
+## Initial Model Choice
+xxx
+
+## Final Model Decision
+xxx
+
+### Data Preprocessing
+xxx
+
+### Preliminary Feature Engineering & Selection
+xxx
+
+### Training / Testing Split
+xxx
+
+### Results and Accuracy Score
 
 ## Database
 using SQL as storage database
+
 
 ## Dashboard
 will most likely use tableau

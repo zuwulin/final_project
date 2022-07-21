@@ -1,28 +1,28 @@
 -- Creating tables for GTA_Housing_Dataset
 CREATE TABLE GTA_Housing_Dataset (
-     full_address VARCHAR(140) NOT NULL,
-     bedrooms int NOT NULL,
-	bathrooms int NOT NULL,
-     price int NOT NULL,
-	Brampton int NOT NULL,
-     Markham int NOT NULL,
-	Mississauga int NOT NULL,
-     Toronto int NOT NULL,
-	Vaughan int NOT NULL,
-     CONDO int NOT NULL,
-	SINGLE_FAMILY int NOT NULL,
-     TOWNHOUSE int NOT NULL,
-     PRIMARY KEY (full_address)
+     Full_Address VARCHAR(140) NOT NULL,
+     Bedrooms int NOT NULL,
+	Bathrooms int NOT NULL,
+     Price int NOT NULL,
+     Latitude float NOT NULL,
+	Longitude float NOT NULL,
+	City_Brampton int NOT NULL,
+     City_Markham int NOT NULL,
+	City_Mississauga int NOT NULL,
+     City_Toronto int NOT NULL,
+	City_Vaughan int NOT NULL,
+     Home_Type_CONDO int NOT NULL,
+	Home_Type_SINGLE_FAMILY int NOT NULL,
+     Home_Type_TOWNHOUSE int NOT NULL,
+     PRIMARY KEY (Full_Address)
 );
 
 -- Creating tables for Listing_Info
 CREATE TABLE Listing_Info (
-     listing_url VARCHAR(600) NOT NULL,
-	listing_image VARCHAR(600) NOT NULL,
-     full_address VARCHAR(140) NOT NULL,
-	zipcode VARCHAR(40) NOT NULL,
-	latitude float NOT NULL,
-	longitude float NOT NULL,
-	FOREIGN KEY (full_address) REFERENCES GTA_Housing_Dataset(full_address),
-     PRIMARY KEY (listing_image)
+     Listing_Image VARCHAR(600) NOT NULL,
+     Listing_URL VARCHAR(600) NOT NULL,
+     Full_Address VARCHAR(140) NOT NULL,
+	Zipcode VARCHAR(40) NOT NULL,
+	FOREIGN KEY (Full_Address) REFERENCES GTA_Housing_Dataset(Full_Address),
+     PRIMARY KEY (Listing_URL)
 );

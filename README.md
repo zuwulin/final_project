@@ -26,13 +26,13 @@ The original dataset was first visually examined for any major issues, such as m
 ## Communication protocols
 Collaborative work meetings during regularly scheduled class time, as well as through slack messaging and zoom calls on an as-needed basis.
 
-## Technologies, languages, tools, and algorithms used
+## Project Outline
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/99566803/180226132-23340c4c-a9bf-4db2-9980-ac3c71da66e9.png" />
 </p>
 
-
+### Technologies, languages, tools, and algorithms used
 
 For the data collection and cleaning:
 * Jupyter Notebook / Pandas
@@ -58,9 +58,6 @@ Presentation:
 xxx
 
 ## Future Recommendations
-xxx
-
-## Project Outline
 xxx
 
 ## Machine learning model

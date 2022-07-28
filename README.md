@@ -73,9 +73,6 @@ Given that both of our initial models did not accomodate the source dataset, we 
 
 ## Final Model Decision
 As can be evident from the picture above, the best avenue for machine learning model appeared to be the Random Forest Regressor. With some additional tweaks and model fitting, the R2 score predictions were as high as 0.72, meaning that the trained model could've potentially be correct in its predictions about 72% of time (a pretty good result for a real-world scattered data). When the machine learning model was run outside of Pycaret, however, the final R2 value was 0.62 (or 62% hit accuracy).
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/99566803/180272187-7bf9323f-7316-4e2e-b7a6-b202d8446aa3.png" />
-</p>
 
 ### Model Benefits and Limitations
 The benefits of this model included its ability to reduce overfitting, meaning that the overall chances of the model to find a statistical trend in unseen data is more plausible. The model is also good for working with both categorical and continuous values, both of which were present in our dataset (althought turned into dummy variables at some point). Additionally, one important point that made the Random Forest Regressor model viable and most fitting for our analysis was the fact that it did not require for the data to be normalized. This, considering the potential statistical price outliers, made the model a favourable choice for our project.
@@ -101,6 +98,9 @@ The data was split into training and testing conditions (i.e., data that is used
 
 ### Results and Accuracy Score
 As mentioned previously, the final R2 value was 0.62 (or 62% hit accuracy). As we performed a multivariate regression analysis, we were not able to produce a confusion matrix (as they are only fit for categorical analysis). However, based on our R2 scores, the model had a significantly relevant accuracy score in predicting the house pricing based on the trained variable set. It is worth noting, naturally, that a 62% prediction rate is not optimal, and, given more time and knowledge, we would like to increase this percentage to at least 80 (taking into consideration, again, that real-world data is messy, and it is hard to achieve a 100% prediction rate).
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/99566803/180272187-7bf9323f-7316-4e2e-b7a6-b202d8446aa3.png" />
+</p>
 
 ## Database
 The database connected to the machine learning model was hosted on the pgAdmin 4 software using the SQL relational database. The tables hosted within the database were created in accordance with the following ERD guidelines:

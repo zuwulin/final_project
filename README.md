@@ -103,7 +103,19 @@ The data was split into training and testing conditions (i.e., data that is used
 As mentioned previously, the final R2 value was 0.62 (or 62% hit accuracy). As we performed a multivariate regression analysis, we were not able to produce a confusion matrix (as they are only fit for categorical analysis). However, based on our R2 scores, the model had a significantly relevant accuracy score in predicting the house pricing based on the trained variable set. It is worth noting, naturally, that a 62% prediction rate is not optimal, and, given more time and knowledge, we would like to increase this percentage to at least 80 (taking into consideration, again, that real-world data is messy, and it is hard to achieve a 100% prediction rate).
 
 ## Database
-using SQL as storage database
+The database connected to the machine learning model was hosted on the pgAdmin 4 software using the SQL relational database. The tables hosted within the database were created in accordance with the following ERD guidelines:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/99566803/181617816-27c7f307-47df-4bbc-8778-52f9b9eda1a7.png" />
+</p>
+
+Additionally, below are the two snippets of the tables created in the GTA housing market database:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/99566803/181618192-380a2bdb-2f2f-4403-8ac8-a632ce5ffb6b.PNG" />
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/99566803/181618525-1e3b7b2e-7efd-4252-ac15-96ae3007b1d1.PNG" />
+</p>
 
 ## Dashboard
 The interactive analysis dashboard can be found [here]() (currently no working link, WIP).

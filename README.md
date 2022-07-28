@@ -40,13 +40,19 @@ As can be evident from the picture above, the best avenue for machine learning m
 </p>
 
 ### Model Benefits and Limitations
-xxx
+The benefits of this model included its ability to reduce overfitting, meaning that the overall chances of the model to find a statistical trend in unseen data is more plausible. The model is also good for working with both categorical and continuous values, both of which were present in our dataset (althought turned into dummy variables at some point). Additionally, one important point that made the Random Forest Regressor model viable and most fitting for our analysis was the fact that it did not require for the data to be normalized. This, considering the potential statistical price outliers, made the model a favourable choice for our project.
 
-### Data Preprocessing
-xxx
+On the other hand, of course, the model came with its own drawback. One such drawback is that the model requires a lot of resources and processing power, as it created more decision trees than a regular decision tree model. The model is also known to take a considerably longer time to succeed in its predictions, although we did not encounter this problem ourselves, and is not particularly good at determining the statistical significance of individual variables on the outcome.
 
 ### Preliminary Feature Engineering & Selection
-xxx
+Originally, the features for analysis were arbitrarily agreed upon by the team members based on the common sense principle (i.e., we wanted the features to be representative of the real-life housing features that might impact the price). Features such as number of rooms, overall size of the house, location, view, garage availability, amenities (if talking about apartments), and year of built were all discussed as possible feature avenues.
+
+The second step in feature engineering came from parameters available to be scraped on the Zillow website. The features taken out from real listings on the website were compared to the list of features that we were interested in, and thus the final feature set included features that met the following three requirements:
+a) The features were discussed or mentioned during the prelimenary feature brainstorming session;
+b) The features were included in the dataset scraped from the Zillow website;
+c) The features in the dataset did not miss more than 10% of the total value count.
+
+As such, a set of 7 features (6 input and 1 output feature) was selected to create and train the machine learning model: number of bedrooms, number of bathrooms, latitude, longitude, home type, city, and house price (target variable).
 
 ### Training / Testing Split
 The data was split into training and testing conditions (i.e., data that is used to train the model, and data that is used by the model to render its own predictions). SciKit Learn python library was used to separate the data into training and testing pools, with the data being split 80/20, in accordance with the industry standard testing size.
@@ -56,7 +62,7 @@ The data was split into training and testing conditions (i.e., data that is used
 </p>
 
 ### Results and Accuracy Score
-
+As mentioned previously, the final R2 value was 0.62 (or 62% hit accuracy). As we performed a multivariate regression analysis, we were not able to produce a confusion matrix (as they are only fit for categorical analysis). However, based on our R2 scores, the model had a significantly relevant accuracy score in predicting the house pricing based on the trained variable set. It is worth noting, naturally, that a 62% prediction rate is not optimal, and, given more time and knowledge, we would like to increase this percentage to at least 80 (taking into consideration, again, that real-world data is messy, and it is hard to achieve a 100% prediction rate).
 
 ## Database
 using SQL as storage database

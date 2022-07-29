@@ -64,14 +64,14 @@ xxx
 
 ### Model Choice
 
-## Initial Model Choice
+### Initial Model Choice
 Original model choice was split between a simple linear regression and a decision tree linear regression. The simple linear regression was almost immediately taken off the list, as it did not behave correctly with multiple input variables, and because both the mean absolute error and the mean squared error values were too high to ever be justifiable. Similar situation occured for the decision tree model following our attempt to teach the model to predict the housing prices: both the absolute and squared error values were too high, and the R2 value equated to -0.87 (a strong negative correlation which could not have been correct).
 Given that both of our initial models did not accomodate the source dataset, we decided to use Pycaret library to investiate which of all the available regression models would produce the most reliable results across the board. Using a simple "compare_models()" function, the results were as follows:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/99566803/180271333-d62241a7-7169-4c85-a4fa-511fc8861201.png" />
 </p>
 
-## Final Model Decision
+### Final Model Decision
 As can be evident from the picture above, the best avenue for machine learning model appeared to be the Random Forest Regressor. With some additional tweaks and model fitting, the R2 score predictions were as high as 0.72, meaning that the trained model could've potentially be correct in its predictions about 72% of time (a pretty good result for a real-world scattered data). When the machine learning model was run outside of Pycaret, however, the final R2 value was 0.62 (or 62% hit accuracy).
 
 ### Model Benefits and Limitations

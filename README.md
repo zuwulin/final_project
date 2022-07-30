@@ -28,4 +28,14 @@ We compared with different Machine Learning algorithms to get the best model whi
 ### Database
 * PgAdmin was use as a database for machine learning model
 
+### Dashboard
+* We utilize Tableau as a tools to visulize our results. 
+* We compare:
+House prices by home types and cities, 
+House types in the market, 
+House prices by number of bedrooms and bathrooms, 
+House prices by locations, and 
+Actual house prices vs. predicted prices
+
+
 

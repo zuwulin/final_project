@@ -38,11 +38,11 @@ House prices by locations, and
 Actual house prices vs. predicted prices
 
 * Dashboard can be viewed following the link below:
-https://public.tableau.com/app/profile/tram4856/viz/GTA_house_price_prediction_Updated/Housepricecomparisonandprediction?publish=yes
+  https://public.tableau.com/app/profile/tram4856/viz/GTA_house_price_prediction_Updated/Housepricecomparisonandprediction?publish=yes
 
 * Tableau story was shared in the link below:
 
-https://public.tableau.com/app/profile/tram4856/viz/GTA_house_price_prediction_Updated/HousepricecomparisoninGTA?publish=yes
+  https://public.tableau.com/app/profile/tram4856/viz/GTA_house_price_prediction_Updated/HousepricecomparisoninGTA?publish=yes
 
 * Both the dashboard and story are under construction and need to be updated.
 

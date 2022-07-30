@@ -118,7 +118,7 @@ Additionally, below are the two snippets of the tables created in the GTA housin
 </p>
 
 ## Dashboard
-The interactive analysis dashboard can be found [here]() (currently no working link, WIP).
+The interactive analysis dashboard can be found [here](https://public.tableau.com/views/GTA_house_price_prediction_Updated/Housepricecomparationandprediction?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 ## Google Slides Presentation
 The presentation for the current project can be found [here](https://docs.google.com/presentation/d/1mjovAs0qO8CtyvKc6Q1dIVrJHnOzxK-rPxAUkTT5raQ/edit#slide=id.p).

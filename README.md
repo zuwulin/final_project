@@ -120,7 +120,7 @@ Additionally, below are the two snippets of the tables created in the GTA housin
 ## Dashboard
 * The interactive analysis dashboard can be found [here](https://public.tableau.com/app/profile/tram4856/viz/GTA_house_price_prediction_Updated/Housepricecomparisonandprediction?publish=yes).
 
-* The interactive analysis story can be found [here](https://public.tableau.com/app/profile/tram4856/viz/GTA_house_price_prediction_Updated/Story1?publish=yes).
+* The interactive analysis story can be found [here](https://public.tableau.com/app/profile/tram4856/viz/GTA_house_price_prediction_Updated/HousepricecomparisoninGTA?publish=yes).
 
 
 ## Google Slides Presentation

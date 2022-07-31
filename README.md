@@ -1,3 +1,6 @@
+ari_branch
+# final_project
+
 # GTA Housing Market Price Prediction
 
 ### Selected topic
@@ -125,3 +128,4 @@ Additionally, below are the two snippets of the tables created in the GTA housin
 
 ## Google Slides Presentation
 The presentation for the current project can be found [here](https://docs.google.com/presentation/d/1mjovAs0qO8CtyvKc6Q1dIVrJHnOzxK-rPxAUkTT5raQ/edit#slide=id.p).
+

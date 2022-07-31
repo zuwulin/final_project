@@ -1,6 +1,3 @@
-ari_branch
-# final_project
-
 # GTA Housing Market Price Prediction
 
 ### Selected topic

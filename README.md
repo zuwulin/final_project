@@ -1,6 +1,6 @@
 # Great Toronto Area House Price Prediction
 
-## Google slide presentation (Draft)
+## Google slide presentation
 
 https://docs.google.com/presentation/d/1mjovAs0qO8CtyvKc6Q1dIVrJHnOzxK-rPxAUkTT5raQ/edit#slide=id.p
 * Google slides were created and updated.
@@ -45,6 +45,10 @@ Actual house prices vs. predicted prices
   https://public.tableau.com/app/profile/tram4856/viz/GTA_house_price_prediction_Updated/HousepricecomparisoninGTA?publish=yes
 
 * Both the dashboard and story are under construction and need to be updated.
+
+### Deployment
+
+https://github.com/TramOttawa/toronto-housing
 
 
 

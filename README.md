@@ -49,6 +49,9 @@ Actual house prices vs. predicted prices
 ### Deployment
 
 https://github.com/TramOttawa/toronto-housing
+![Herokuapp_result0](https://user-images.githubusercontent.com/100484606/183279715-5ca22032-868f-413c-839a-d9663d5f1ab2.JPG)
+
+
 
 
 

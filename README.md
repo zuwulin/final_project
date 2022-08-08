@@ -53,12 +53,14 @@ Dashboard:
 
 Presentation:
 * Google Slides
-  
-## Results of Analysis
-xxx
 
 ## Future Recommendations
-xxx
+Some of our future recommendations would be to:
+* Use a bigger dataset
+
+* Improve the usability and appearance of the Heroku app
+
+* Explore and add more feature options for a more precise price prediction
 
 ## Machine learning model
 

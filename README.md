@@ -124,6 +124,12 @@ Additionally, below are the two snippets of the tables created in the GTA housin
 
 * The interactive analysis story can be found [here](https://public.tableau.com/app/profile/tram4856/viz/GTA_house_price_prediction_Updated/HousepricecomparisoninGTA?publish=yes).
 
+## Deployment using Heroku platform
+The original Heroku development can be found on TramOttawa's github [page](https://github.com/TramOttawa/toronto-housing).
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/100484606/183279715-5ca22032-868f-413c-839a-d9663d5f1ab2.JPG" />
+</p>
 
 ## Google Slides Presentation
 The presentation for the current project can be found [here](https://docs.google.com/presentation/d/1mjovAs0qO8CtyvKc6Q1dIVrJHnOzxK-rPxAUkTT5raQ/edit#slide=id.p).
